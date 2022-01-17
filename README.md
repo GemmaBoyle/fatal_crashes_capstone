@@ -2,9 +2,6 @@
 
 ## Overview
 
-
-Overview 
-
 There were 33,244 fatal motor vehicle crashes in the United States in 2019 in which 36,096 deaths occurred. On average it costs $1200 to send each ambulance to a crash site. This project considers the factors which predict fatal instances of crashes so that emergency services may be distributed accordingly, decreasing the number of excess crash deaths while also minimising the cost of response vehicles.
 
 
@@ -26,7 +23,7 @@ There were 33,244 fatal motor vehicle crashes in the United States in 2019 in wh
 
 ## Background
 
-##Libraries, technologies and tools
+## Libraries, technologies and tools
 
 - Numpy
 - Pandas
