@@ -74,7 +74,7 @@ The data itself was made up exclusively of categorical variables, which in itsel
 
 EDA was used to highlight trends across the data and give an indication of interesting features for further investigation. 
 
-![count vehicle type](##https://github.com/GemmaBoyle/fatal_crashes_capstone/blob/main/Images/Count_vehicle_type.png)
+![Vehicle type](##https://github.com/GemmaBoyle/fatal_crashes_capstone/blob/main/Images/Count_vehicle_type.png?raw=true)
 
 The graph above gives the first indication that motorcycle riders are at the highest risk of fatality, as this is the only vehicle where fatalities outnumber non-fatalities. Safer vehicles appear to be larger, i.e trucks and buses. 
 
