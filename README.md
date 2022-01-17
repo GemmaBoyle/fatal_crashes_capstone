@@ -1,4 +1,4 @@
-# Predicting Fatal Crash instances using the US Fars () database
+# Predicting Fatal Crash instances using the US Fars (Fatal Analysis Reporting System) database
 
 ## Overview
 
@@ -86,13 +86,13 @@ As we can observe from the pie chart above only around 37% of those involved in 
 
 The box plot above shows a similar distribution across the age ranges for using an appropriate safety measure (helmet or seatbelt), with the median value being slightly lower in the negative class, indicating that on average younger people are less likely to use a safety measure. Very concerning are the lower values on the negative class, indicating there were young children (around 12 years old) who were not wearing a seatbelt whilst being a passenger. 
 
-![age distribution](##https://github.com/GemmaBoyle/fatal_crashes_capstone/blob/main/Images/Age_distribution.png)
+![age distribution](##/Images/Age_distribution.png)
 
 The KDE histogram on the left shows the distribution of ages across all instances, we can see two significant peaks, one around 20 years old and one around 62 years old, showing that a large proportion of these crashes involve young people and older people. When we compare this against the distribution of fatalities we can see that a lower proportion of younger drivers are killed in these crashes than are involved, however a larger proportion of older drivers are killed in these crashes than are involved. This may indicate that age is a factor in determining fatality, with older people being more likely to be fatalities. 
 
 **Feature Selection**
 
-![kmeans feature selection](##https://github.com/GemmaBoyle/fatal_crashes_capstone/blob/main/Images/k_best_feature_importance.png)
+![kmeans feature selection](##Images/k_best_feature_importance.png)
 
 At this point a Chi-squared test for association was run for each feature against the target variable of fatality in order to decrease the number of features in the set to prevent overfitting of models. Every feature in the data set showed significant association with the target except for ‘Time of day’ and ‘Day of week’, hence these variables were removed for the remainder of the project. The largest bar on the very left of the diagram represents the age variable. Using an arbitrary cut off point the top 20 most associated features were chosen, these are shown below;
 
